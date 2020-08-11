@@ -19,30 +19,14 @@ Find the paper [here]() #todo: add link when available
 
 ## Supplementary Material
 
-**Benchmarking data:**  
+**Proof of Hypertrie Space Complexity:** 
+* [Download **pdf**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/pdfs/proof_of_hypertrie_space_complexity.pdf)
 
-SWDF:
-* [Download **data**](https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/swdf.zip) 
-* [Download **queries**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.txt)
-* [Download **queries' stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.tsv)  
+**Impact of Small and Large Queries:** 
+* [Download **pdf**]() #todo
 
-DBpedia 2015-10 en: 
-* [Download **data**](https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/dbpedia_2015-10_en_wo-comments_c.nt.zst), concat. of [those files](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/datasets/DBpedia-2015-10-en_links.txt)
-* [Download **queries**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/DBpedia-Queries.txt) 
-* [Download **queries' stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/DBpedia-Queries.tsv) 
- 
-WatDiv: 
-* [Download **generator binaries\***](https://dsg.uwaterloo.ca/watdiv/watdiv_v06.tar)
-* [Download **queries**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/WatDiv-Queries.txt)
-* [Download **queries' stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/WatDiv-Queries.tsv)  
-  \* run with scale factor 10000
+### Setup
 
-Measurements: 
-* [Download **data loading stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/dataset_loading_stats.tsv)
-* [Download **http bechmarks**]() #todo
-* [Download **cli benchmarks**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/CLI_benchmark_results.csv)  
-
-Setup: 
 * [Download **ansible playbook**](https://github.com/dice-group/tentris-paper-benchmarks/releases/tag/v1.0) 
  
 Tentris Binaries: 
@@ -50,8 +34,29 @@ Tentris Binaries:
 * [Download **v1.0.4 2-way join**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_2way_join.zip)
 * [Download **v1.0.4 rand. label order**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_random_label_order.zip)  
 
-**Proof of Hypertrie Space Complexity:** 
-* [Download **pdf**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/pdfs/proof_of_hypertrie_space_complexity.pdf)
+### Benchmarks  
 
-**Impact of Small and Large Queries:** 
-* [Download **pdf**]() #todo
+SWDF Benchmark:
+* [Download **data**](https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/swdf.zip) 
+* [Download **queries**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.txt)
+* [Download **queries' stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.tsv)  
+
+DBpedia 2015-10 en Benchmark: 
+* [Download **data \[1\]**](https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/dbpedia_2015-10_en_wo-comments_c.nt.zst)
+* [Download **queries**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/DBpedia-Queries.txt) 
+* [Download **queries' stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/DBpedia-Queries.tsv) 
+ 
+WatDiv Benchmark: 
+* [Download **generator binaries \[2\]**](https://dsg.uwaterloo.ca/watdiv/watdiv_v06.tar)
+* [Download **queries**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/WatDiv-Queries.txt)
+* [Download **queries' stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/WatDiv-Queries.tsv)  
+
+Benchmarking Results: 
+* [Download **data loading stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/dataset_loading_stats.tsv)
+* [Download **http bechmarks**]() #todo
+* [Download **cli benchmarks**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/CLI_benchmark_results.csv)  
+
+---
+\[1\] concatination of [those files](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/datasets/DBpedia-2015-10-en_links.txt)  
+\[2\] run with scale factor 10000
+
