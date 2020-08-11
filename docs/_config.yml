@@ -1,1 +1,4 @@
 theme: jekyll-theme-minimal
+title: ISWC2020 -- Tentris
+logo: assets/img/Tentris_logo.svg
+description: A Tensor-Based Triple Store
