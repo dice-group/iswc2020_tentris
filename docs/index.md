@@ -20,40 +20,37 @@ Find the paper [here]() #todo: add link when available
 ## Supplementary Material
 
 **Benchmarking data:**  
-SWDF: 
 
-<ul>
-    <li>
-        <a href="https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/swdf.zip">Download <strong>data</strong></a>
-    </li>
-    <li>
-        <a href="https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.txt">Download <strong>queries</strong></a>
-    </li>
-    <li>
-        <a href="https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.tsv">Download <strong>queries' stats</strong></a>
-    </li>
-</ul>
-
-SWDF: 
-* [Download **data**](https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/swdf.zip) | 
-* [Download **queries**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.txt) | 
+SWDF:
+* [Download **data**](https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/swdf.zip) 
+* [Download **queries**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.txt)
 * [Download **queries' stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.tsv)  
 
 DBpedia 2015-10 en: 
-[data](https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/dbpedia_2015-10_en_wo-comments_c.nt.zst), concat. of [those files](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/datasets/DBpedia-2015-10-en_links.txt) | 
-[queries](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/DBpedia-Queries.txt) | 
-[queries' stats](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/DBpedia-Queries.tsv)  
+* [Download **data**](https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/dbpedia_2015-10_en_wo-comments_c.nt.zst), concat. of [those files](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/datasets/DBpedia-2015-10-en_links.txt)
+* [Download **queries**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/DBpedia-Queries.txt) 
+* [Download **queries' stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/DBpedia-Queries.tsv) 
+ 
 WatDiv: 
-[run generator with scale factor 10000](https://dsg.uwaterloo.ca/watdiv/watdiv_v06.tar) | 
-[queries](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/WatDiv-Queries.txt) | 
-[queries' stats](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/WatDiv-Queries.tsv)  
-Measurements: [data loading stats](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/dataset_loading_stats.tsv) | 
-[http bechmarks]() #todo | [cli benchmarks](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/CLI_benchmark_results.csv)  
-Setup: [ansible playbook](https://github.com/dice-group/tentris-paper-benchmarks/releases/tag/v1.0)  
-Tentris Binaries: [1.0.4](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4.zip) | 
-[1.0.4 2-way join](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_2way_join.zip) | 
-[1.0.4 rand. label order](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_random_label_order.zip)  
+* [Download **run generator with scale factor 10000**](https://dsg.uwaterloo.ca/watdiv/watdiv_v06.tar)
+* [Download **queries**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/WatDiv-Queries.txt)
+* [Download **queries' stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/WatDiv-Queries.tsv)  
 
-**Proof of Hypertrie Space Complexity:** [pdf](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/pdfs/proof_of_hypertrie_space_complexity.pdf)
+Measurements: 
+* [Download **data loading stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/dataset_loading_stats.tsv)
+* [Download **http bechmarks**]() #todo
+* [Download **cli benchmarks**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/CLI_benchmark_results.csv)  
 
-**Impact of Small and Large Queries:** [pdf]() #todo
+Setup: 
+* [Download **ansible playbook**](https://github.com/dice-group/tentris-paper-benchmarks/releases/tag/v1.0) 
+ 
+Tentris Binaries: 
+* [Download **v1.0.4**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4.zip) | 
+* [Download **v1.0.4 2-way join**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_2way_join.zip) | 
+* [Download **v1.0.4 rand. label order**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_random_label_order.zip)  
+
+**Proof of Hypertrie Space Complexity:** 
+* [Download **pdf**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/pdfs/proof_of_hypertrie_space_complexity.pdf)
+
+**Impact of Small and Large Queries:** 
+* [Download **pdf**]() #todo
