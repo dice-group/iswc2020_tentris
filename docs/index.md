@@ -34,7 +34,10 @@ WatDiv:
 [queries' stats](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/WatDiv-Queries.tsv)  
 Measurements: [data loading stats](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/dataset_loading_stats.tsv) | 
 [http bechmarks]() #todo | [cli benchmarks](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/CLI_benchmark_results.csv)  
-Setup: [ansible playbook]() #todo
+Setup: [ansible playbook]() #todo  
+Tentris Binaries: [1.0.4](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4.zip) | 
+[1.0.4 2-way join](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_2way_join.zip) | 
+[1.0.4 rand. label order](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_random_label_order.zip)  
 
 **Proof of Hypertrie Space Complexity:** [pdf](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/pdfs/proof_of_hypertrie_space_complexity.pdf)
 
