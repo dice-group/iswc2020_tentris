@@ -25,8 +25,11 @@ Find the paper [here]() #todo: add link when available
 **Impact of Small and Large Queries:** 
 * [Download **pdf**]() #todo
 
+## Evaluation
+
 ### Setup
 
+We provide a ansible playbook to automatically setup triple stores, datasets, queries, benchmarking tools and scripts to run the benchmarks on a test machine.
 * [Download **ansible playbook**](https://github.com/dice-group/tentris-paper-benchmarks/releases/tag/v1.0) 
  
 Tentris Binaries: 
