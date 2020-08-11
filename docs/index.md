@@ -20,11 +20,12 @@ Find the paper [here]() #todo: add link when available
 ## Supplementary Material
 
 **Benchmarking data:**  
-test: <ul class="downloads">
+test: 
+<ul class="downloads">
                   <li><a href="https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/swdf.zip">Download <strong>data</strong></a></li>
                   <li><a href="https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.txt">Download <strong>queries</strong></a></li>
                   <li><a href="https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.tsv">Download <strong>queries' stats</strong></a></li>
-        </ul>
+</ul>
 SWDF: 
 [data](https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/swdf.zip) | 
 [queries](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.txt) | 
