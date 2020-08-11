@@ -10,11 +10,13 @@ section ul {
   background: #f4f4f4;
   border-radius: 5px;
   border: 1px solid #e0e0e0;
-  width: 270px;
+  width:max-content;
 }
 
 section li {
-  width: 89px;
+  width: max-content;
+  padding-left: 6px;
+  padding-right: 6px;
   float: left;
   border-right: 1px solid #e0e0e0;
   height: 40px;
@@ -43,7 +45,7 @@ section ul {
   background:#f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:270px
+  width:max-content
 }
 section li {
   width:89px;
@@ -73,10 +75,6 @@ section ul a:focus {
 }
 section ul a:active {
   background-color:#f0f0f0
-}
-section ul li+li+li {
-  border-right:none;
-  width:89px
 }
 section ul a strong {
   font-size:14px;
