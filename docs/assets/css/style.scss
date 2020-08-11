@@ -46,10 +46,13 @@ section ul {
   background:#f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:max-content
+  width:max-content;
 }
 section li {
-  width:89px;
+  width: max-content;
+  min-width: 89px;
+  padding-left: 6px;
+  padding-right: 6px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px
@@ -80,5 +83,6 @@ section ul a:active {
 section ul a strong {
   font-size:14px;
   display:block;
-  color:#222
+  color:#222;
+  text-align:center;
 }
