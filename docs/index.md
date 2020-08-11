@@ -5,7 +5,7 @@ This page provides access to all the scripts, data and code needed to reproduce 
 
 '# todo: update when final
 
-## abstract
+## Abstract
 
 The number and size of RDF knowledge graphs grows continuously. Efficient storage solutions for these graphs are indispensable for their use in real applications. 
 We present such a storage solution dubbed Tentris.
