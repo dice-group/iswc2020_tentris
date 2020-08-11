@@ -20,9 +20,9 @@ Find the paper [here]() #todo: add link when available
 ## Supplementary Material
 
 **Benchmarking data:**  
-test: 
+SWDF: 
 
-<ul class="downloads">
+<ul>
     <li>
         <a href="https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/swdf.zip">Download <strong>data</strong></a>
     </li>
@@ -35,9 +35,10 @@ test:
 </ul>
 
 SWDF: 
-[data](https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/swdf.zip) | 
-[queries](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.txt) | 
-[queries' stats](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.tsv)  
+* [Download **data**](https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/swdf.zip) | 
+* [Download **queries**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.txt) | 
+* [Download **queries' stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/SWDF-Queries.tsv)  
+
 DBpedia 2015-10 en: 
 [data](https://hobbitdata.informatik.uni-leipzig.de/ISWC2020_Tentris/dbpedia_2015-10_en_wo-comments_c.nt.zst), concat. of [those files](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/datasets/DBpedia-2015-10-en_links.txt) | 
 [queries](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/DBpedia-Queries.txt) | 
