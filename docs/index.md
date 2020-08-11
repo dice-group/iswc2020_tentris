@@ -36,6 +36,6 @@ Measurements: [data loading stats](https://raw.githubusercontent.com/dice-group/
 [http bechmarks]() #todo | [cli benchmarks](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/CLI_benchmark_results.csv)  
 Setup: [ansible playbook]() #todo
 
-**Proof of Hypertrie Space Compexity:** [pdf](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/pdfs/proof_of_hypertrie_space_complexity.pdf)
+**Proof of Hypertrie Space Complexity:** [pdf](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/pdfs/proof_of_hypertrie_space_complexity.pdf)
 
 **Impact of Small and Large Queries:** [pdf]() #todo
