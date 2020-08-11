@@ -32,9 +32,10 @@ DBpedia 2015-10 en:
 * [Download **queries' stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/DBpedia-Queries.tsv) 
  
 WatDiv: 
-* [Download **run generator with scale factor 10000**](https://dsg.uwaterloo.ca/watdiv/watdiv_v06.tar)
+* [Download **generator binaries\***](https://dsg.uwaterloo.ca/watdiv/watdiv_v06.tar)
 * [Download **queries**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/WatDiv-Queries.txt)
 * [Download **queries' stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/queries/WatDiv-Queries.tsv)  
+  \* run with scale factor 10000
 
 Measurements: 
 * [Download **data loading stats**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/dataset_loading_stats.tsv)
@@ -45,8 +46,8 @@ Setup:
 * [Download **ansible playbook**](https://github.com/dice-group/tentris-paper-benchmarks/releases/tag/v1.0) 
  
 Tentris Binaries: 
-* [Download **v1.0.4**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4.zip) | 
-* [Download **v1.0.4 2-way join**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_2way_join.zip) | 
+* [Download **v1.0.4**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4.zip)
+* [Download **v1.0.4 2-way join**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_2way_join.zip)
 * [Download **v1.0.4 rand. label order**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_random_label_order.zip)  
 
 **Proof of Hypertrie Space Complexity:** 
