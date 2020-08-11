@@ -1,7 +1,7 @@
 # WIP: this is a non-final draft
 This page provides access to all the scripts, data and code needed to reproduce the results of the  paper:
 
-> Alexander Bigerl, Felix Conrads, Charlotte Behning, Mohamed Sherif, Muhammad Saleem and Axel-Cyrille Ngonga Ngomo (2020) Tentris – A Tensor-Based Triple Store. In: The Semantic Web – ISWC 2020
+> Alexander Bigerl, Felix Conrads, Charlotte Behning, Mohamed Sherif, Muhammad Saleem and Axel-Cyrille Ngonga Ngomo (2020) <span style="font-variant:small-caps;">Tentris</span> – A Tensor-Based Triple Store. In: The Semantic Web – ISWC 2020
 
 '# todo: update when final
 
@@ -11,7 +11,7 @@ The number and size of RDF knowledge graphs grows continuously. Efficient storag
 We present such a storage solution dubbed <span style="font-variant:small-caps;">Tentris</span>.
 Our solution represents RDF knowledge graphs as sparse order-3 tensors using a novel data structure, which we dub hypertrie. 
 It then uses tensor algebra to carry out SPARQL queries by mapping SPARQL operations to Einstein summation. 
-By being able to compute Einstein summations efficiently, Tentris outperforms the commercial and open-source RDF storage solutions evaluated in our experiments by at least 1.8 times with respect to the average number of queries it can serve per second on three datasets of up to 1 billion triples.
+By being able to compute Einstein summations efficiently, <span style="font-variant:small-caps;">Tentris</span> outperforms the commercial and open-source RDF storage solutions evaluated in our experiments by at least 1.8 times with respect to the average number of queries it can serve per second on three datasets of up to 1 billion triples.
 
 ## Paper 
 
@@ -32,7 +32,7 @@ Find the paper [here]() #todo: add link when available
 We provide a ansible playbook to automatically setup triple stores, datasets, queries, benchmarking tools and scripts to run the benchmarks on a test machine.
 * [Download **ansible playbook**](https://github.com/dice-group/tentris-paper-benchmarks/releases/tag/v1.0) 
  
-Tentris Binaries: 
+<span style="font-variant:small-caps;">Tentris</span> Binaries: 
 * [Download **v1.0.4**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4.zip)
 * [Download **v1.0.4 2-way join**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_2way_join.zip)
 * [Download **v1.0.4 rand. label order**](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/binaries/tentris_1.0.4_random_label_order.zip)  
