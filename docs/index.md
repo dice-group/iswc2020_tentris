@@ -14,8 +14,11 @@ It then uses tensor algebra to carry out SPARQL queries by mapping SPARQL operat
 By being able to compute Einstein summations efficiently, <span style="font-variant:small-caps;">Tentris</span> outperforms the commercial and open-source RDF storage solutions evaluated in our experiments by at least 1.8 times with respect to the average number of queries it can serve per second on three datasets of up to 1 billion triples.
 
 ## Paper 
+* [Download **pdf**]() #todo: add link when available
 
-Find the paper [here]() #todo: add link when available
+## Code
+* [Visit **<span style="font-variant:small-caps;">Tentris</span>**](https://github.com/dice-group/tentris) 
+* [Visit **Hypertrie**](https://github.com/dice-group/hypertrie)
 
 ## Supplementary Material
 
@@ -29,7 +32,7 @@ Find the paper [here]() #todo: add link when available
 
 ### Setup
 
-We provide a ansible playbook to automatically setup triple stores, datasets, queries, benchmarking tools and scripts to run the benchmarks on a test machine.
+We provide an [Ansible](https://docs.ansible.com/ansible/latest/index.html) playbook to automatically setup triple stores, datasets, queries, benchmarking tools and scripts to run the benchmarks on a test machine.
 * [Download **ansible playbook**](https://github.com/dice-group/tentris-paper-benchmarks/releases/tag/v1.0) 
  
 <span style="font-variant:small-caps;">Tentris</span> Binaries: 
