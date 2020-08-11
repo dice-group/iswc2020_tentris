@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-section ul {
+ul {
   list-style: none;
   height: 40px;
   padding: 0;
@@ -13,14 +13,14 @@ section ul {
   width: 270px;
 }
 
-section li {
+li {
   width: 89px;
   float: left;
   border-right: 1px solid #e0e0e0;
   height: 40px;
 }
 
-section ul a {
+ul a {
   line-height: 1;
   font-size: 11px;
   color: #676767;
@@ -30,13 +30,13 @@ section ul a {
   height: 34px;
 }
 
-section ul a strong {
+ul a strong {
   font-size: 14px;
   display: block;
   color: #222;
 }
 
-section ul {
+ul {
   list-style:none;
   height:40px;
   padding:0;
@@ -45,19 +45,19 @@ section ul {
   border:1px solid #e0e0e0;
   width:270px
 }
-section li {
+li {
   width:89px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px
 }
-section li:first-child a {
+li:first-child a {
   border-radius:5px 0 0 5px
 }
-section li:last-child a {
+li:last-child a {
   border-radius:0 5px 5px 0
 }
-section ul a {
+ul a {
   line-height:1;
   font-size:11px;
   color:#676767;
@@ -66,19 +66,19 @@ section ul a {
   padding-top:6px;
   height:34px
 }
-section ul a:hover,
-section ul a:focus {
+ul a:hover,
+ul a:focus {
   color:#675C5C;
   font-weight:bold
 }
-section ul a:active {
+ul a:active {
   background-color:#f0f0f0
 }
-section ul li+li+li {
+ul li+li+li {
   border-right:none;
   width:89px
 }
-section ul a strong {
+ul a strong {
   font-size:14px;
   display:block;
   color:#222
