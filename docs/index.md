@@ -15,9 +15,10 @@ By being able to compute Einstein summations efficiently, <span style="font-vari
 
 ## Supplementary Material
 
-Proof of Hypertrie Space Complexity: [pdf](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/pdfs/proof_of_hypertrie_space_complexity.pdf)
+Proof of Hypertrie Space Complexity: [pdf](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/suppl/proof_of_hypertrie_space_complexity.pdf)
 
-Impact of Small and Large Queries: [pdf]() #todo
+Impact of Small and Large Queries: [csv](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/suppl/ByResultSize/summary_table_impact_of_small_and_large_queries.csv) | [plots](https://github.com/dice-group/iswc2020_tentris/tree/master/suppl/ByResultSize) 
+
 
 ## Evaluation Results
 [http bechmarks](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/HTTP_benchmark_results.csv) | 
@@ -27,7 +28,7 @@ Impact of Small and Large Queries: [pdf]() #todo
 ## Reproducing Evaluation
 
 We provide an [Ansible](https://docs.ansible.com/ansible/latest/index.html) playbook to automatically setup triple stores, datasets, queries, benchmarking tools and scripts to run the benchmarks on a test machine. The machine should have 32+ cores, 768+ GB RAM and 1+ TB free space on '/home'. We tested the setup on Ubuntu 20.04 and Debian Buster.   
-[Visit **Ansible playbook**](https://github.com/dice-group/tentris-paper-benchmarks/releases/tag/v1.0) 
+[Visit Ansible playbook](https://github.com/dice-group/tentris-paper-benchmarks/releases/tag/v1.0) 
 
 Direct download links for the benchmarks and <span style="font-variant:small-caps;">Tentris</span>-binaries used in the evaluation are provided below. 
  
