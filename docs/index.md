@@ -17,8 +17,8 @@ By being able to compute Einstein summations efficiently, <span style="font-vari
 
 Proof of Hypertrie Space Complexity: [pdf](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/suppl/proof_of_hypertrie_space_complexity.pdf)
 
-Impact of Small and Large Queries: [csv](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/suppl/ByResultSize/summary_table_impact_of_small_and_large_queries.csv) | [plots](https://github.com/dice-group/iswc2020_tentris/tree/master/suppl/ByResultSize) 
-
+Impact of Small and Large Queries: [csv](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/suppl/ByResultSize/summary_table_impact_of_small_and_large_queries.csv) | 
+[plots](https://github.com/dice-group/iswc2020_tentris/tree/master/suppl/ByResultSize) 
 
 ## Evaluation Results
 [http bechmarks](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/HTTP_benchmark_results.csv) | 
