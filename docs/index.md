@@ -24,7 +24,7 @@ Impact of Small and Large Queries: [pdf]() #todo
 [cli benchmarks](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/CLI_benchmark_results.csv) | 
 [data loading stats](https://raw.githubusercontent.com/dice-group/iswc2020_tentris/master/measurements/dataset_loading_stats.tsv)
 
-### Reproducing Evaluation
+## Reproducing Evaluation
 
 We provide an [Ansible](https://docs.ansible.com/ansible/latest/index.html) playbook to automatically setup triple stores, datasets, queries, benchmarking tools and scripts to run the benchmarks on a test machine. The machine should have 32+ cores, 768+ GB RAM and 1+ TB free space on '/home'. We tested the setup on Ubuntu 20.04 and Debian Buster.   
 [Visit **Ansible playbook**](https://github.com/dice-group/tentris-paper-benchmarks/releases/tag/v1.0) 
