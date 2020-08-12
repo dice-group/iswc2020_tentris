@@ -4,16 +4,10 @@
 @import "{{ site.theme }}";
 
 // adopt color schema from tentris logo
-a {
+a, a:visited {
   font-weight: bold;
-}
-
-a {
   color:#43a592;
-}
-
-a:visited{
-  color: #107060;
+  font-weight: bold;
 }
 
 a:hover, a:focus  {
