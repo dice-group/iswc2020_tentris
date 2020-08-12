@@ -94,10 +94,18 @@ a {
   color:#43a592;
 }
 
+a:visited{
+  color: #107060;
+}
+
 a:hover {
   color: #e53d55;
 }
 
 a:active {
+  color: #982c37;
+}
+
+a:after {
   color: #982c37;
 }
