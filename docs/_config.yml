@@ -3,3 +3,5 @@ title: "ISWC 2020 Paper: Tentris – A Tensor-Based Triple Store"
 logo: /assets/img/Tentris_logo.svg
 description:
 show_downloads: false
+baseurl: /iswc2020
+repository: dice-group/iswc2020_tentris
