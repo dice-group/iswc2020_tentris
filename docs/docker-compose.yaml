@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  tentris_site:
+    build: .
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.tentris-site.rule=Host(`tentris.dice-research.org`) && PathPrefix(`/iswc2020`)"
+    restart: always
