@@ -8,7 +8,7 @@ Cite as:
   author = {Bigerl, Alexander and Conrads, Felix and Behning, Charlotte and Sherif, Mohamed and Saleem, Muhammad and Ngonga Ngomo, Axel-Cyrille},
   booktitle = {The Semantic Web -- ISWC 2020},
   publisher = {Springer International Publishing},
-  title = {{T}entris -- {A} {T}ensor-{B}ased {T}riple {S}tore},
+  title = { {T}entris -- {A} {T}ensor-{B}ased {T}riple {S}tore},
   url = {https://papers.dice-research.org/2020/ISWC_Tentris/iswc2020_tentris_public.pdf},
   year = 2020
 }
