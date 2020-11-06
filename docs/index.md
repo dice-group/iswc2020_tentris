@@ -1,16 +1,18 @@
 This page provides access to all the scripts, data and code needed to reproduce the results of the  paper:
 
-> Alexander Bigerl, Felix Conrads, Charlotte Behning, Mohamed Sherif, Muhammad Saleem and Axel-Cyrille Ngonga Ngomo (2020) <span style="font-variant:small-caps;">Tentris</span> – A Tensor-Based Triple Store. In: The Semantic Web – ISWC 2020
+> Alexander Bigerl, Felix Conrads, Charlotte Behning, Mohamed Ahmed Sherif, Muhammad Saleem and Axel-Cyrille Ngonga Ngomo (2020) <span style="font-variant:small-caps;">Tentris</span> – A Tensor-Based Triple Store. In: The Semantic Web – ISWC 2020
 
 Cite as:
 ```
-@article{bigerl2020tentris,
-  author = {Bigerl, Alexander and Conrads, Felix and Behning, Charlotte and Sherif, Mohamed and Saleem, Muhammad and Ngonga Ngomo, Axel-Cyrille},
+@InProceedings{bigerl2020tentris,
+  author = {Bigerl, Alexander and Conrads, Felix and Behning, Charlotte and Sherif, Mohamed Ahmed and Saleem, Muhammad and Ngonga Ngomo, Axel-Cyrille},
   booktitle = {The Semantic Web -- ISWC 2020},
   publisher = {Springer International Publishing},
   title = { {T}entris -- {A} {T}ensor-{B}ased {T}riple {S}tore},
+  pages = {56--73},
   url = {https://papers.dice-research.org/2020/ISWC_Tentris/iswc2020_tentris_public.pdf},
-  year = 2020
+  year = 2020,
+  isbn = {978-3-030-62419-4}
 }
 ```
 
